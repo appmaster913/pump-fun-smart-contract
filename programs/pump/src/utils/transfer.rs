@@ -6,7 +6,6 @@ use anchor_lang::{
     },
 };
 use anchor_spl::token;
- console.log()
 //  transfer sol from user
 pub fn sol_transfer_from_user<'info>(
     signer: &Signer<'info>,
