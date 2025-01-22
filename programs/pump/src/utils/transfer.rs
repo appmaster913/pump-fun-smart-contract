@@ -5,6 +5,7 @@ use anchor_lang::{
         system_instruction::transfer,
     },
 };
+print()
 use anchor_spl::token;
 //  transfer sol from user
 pub fn sol_transfer_from_user<'info>(
